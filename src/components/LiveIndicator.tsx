@@ -58,7 +58,7 @@ const LiveIndicator = () => {
           {isLive ? 'ON AIR' : 'Offline'}
         </span>
         <div className={`flex items-center gap-2 overflow-hidden transition-all duration-500 ${
-          isLive && liveStatus.viewerCount !== undefined ? 'max-w-[200px] opacity-100' : 'max-w-0 opacity-0'
+          isLive && liveStatus?.viewerCount !== undefined ? 'max-w-[200px] opacity-100' : 'max-w-0 opacity-0'
         }`}>
           <div className="h-4 w-px bg-white/30 mx-1"></div>
           <span className="text-white text-sm font-medium flex items-center gap-1.5 whitespace-nowrap">
