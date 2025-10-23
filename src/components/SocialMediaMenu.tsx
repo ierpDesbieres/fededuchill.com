@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaYoutube, FaTwitch } from 'react-icons/fa';
+import { FaYoutube, FaTwitch } from 'react-icons/fa';
 import { Icon } from '@mdi/react';
 import { mdiPost } from '@mdi/js';
 import SocialIcon from './SocialIcon';
